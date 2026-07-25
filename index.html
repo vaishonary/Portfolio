@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vaishnavi Shukla | Portfolio</title>
+    <meta name="description" content="Interactive portfolio of Vaishnavi Shukla, a second-year B.Tech CSE student and aspiring AI enthusiast." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="pixel-overlay"></div>
+    <div class="cursor-glow"></div>
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+    <div class="floating-orb orb-one"></div>
+    <div class="floating-orb orb-two"></div>
+
+    <header class="hero">
+      <nav class="nav">
+        <a href="#home" class="logo">Vaishnavi</a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#events">Events</a>
+          <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">☀️</button>
+        </div>
+      </nav>
+
+      <section id="home" class="hero-content">
+        <div class="hero-text">
+          <p class="eyebrow">Second-year B.Tech CSE student</p>
+          <h1>Hi, I’m Vaishnavi Shukla.</h1>
+          <p class="intro">
+            I’m 19, a curious tech enthusiast exploring AI, web development, and creative problem-solving.
+            I enjoy building meaningful digital experiences and learning through real-world projects.
+          </p>
+          <div class="cta-row">
+            <a href="#projects" class="btn btn-primary">See My Projects</a>
+            <a href="https://www.linkedin.com/in/vaishnavi-shukla-207860334/" target="_blank" rel="noreferrer" class="btn btn-secondary">LinkedIn</a>
+            <a href="https://github.com/vaishonary" target="_blank" rel="noreferrer" class="btn btn-secondary">GitHub</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <img src="assets/profile.jpeg" alt="Portrait of Vaishnavi Shukla" class="profile-image" />
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section id="about" class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">About me</p>
+          <h2>Driven by curiosity, communication, and creation.</h2>
+        </div>
+        <div class="about-grid">
+          <div class="card">
+            <h3>Education</h3>
+            <p>Pursuing B.Tech in Computer Science and Engineering at CMR College of Engineering and Technology.</p>
+          </div>
+          <div class="card">
+            <h3>Background</h3>
+            <p>I’m a B2 NCC cadet, and I enjoy combining discipline, leadership, and creativity in everything I do.</p>
+          </div>
+          <div class="card">
+            <h3>Interests</h3>
+            <p>Playing chess, listening to music, bird watching, and exploring new technologies.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>Tools, technologies, and strengths I bring.</h2>
+        </div>
+        <div class="skills-grid">
+          <span class="skill-pill">Prompt Engineering</span>
+          <span class="skill-pill">Generative AI</span>
+          <span class="skill-pill">Public Speaking</span>
+          <span class="skill-pill">Strategic Planning</span>
+          <span class="skill-pill">Vibe Coding</span>
+          <span class="skill-pill">Java</span>
+          <span class="skill-pill">C Programming</span>
+          <span class="skill-pill">Git & GitHub</span>
+          <span class="skill-pill">Visual Studio Code</span>
+          <span class="skill-pill">Canva</span>
+          <span class="skill-pill">Microsoft Office</span>
+          <span class="skill-pill">HTML</span>
+          <span class="skill-pill">CSS</span>
+          <span class="skill-pill">WordPress</span>
+          <span class="skill-pill">Computer Science</span>
+        </div>
+      </section>
+
+      <section id="projects" class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected work that reflects my growth.</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Civic AI Prototype</h3>
+            <p>Built as part of my participation in the IBM Z Datathon in November 2025.</p>
+          </article>
+          <article class="project-card">
+            <h3>TypeForge</h3>
+            <p>A typing practice website for coding with custom code exercises, created through vibe coding.</p>
+          </article>
+          <article class="project-card">
+            <h3>riseandnurture.com</h3>
+            <p>A WordPress website created for a life coach business.</p>
+          </article>
+          <article class="project-card">
+            <h3>CEER Web App Faculty Portal</h3>
+            <p>Developed for faculty members of the Center for Engineering Education and Research department.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="events" class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Events & achievements</p>
+          <h2>Milestones and experiences I’m proud of.</h2>
+        </div>
+        <div class="events-list">
+          <div class="card event-card">
+            <h3>IBM Z Datathon</h3>
+            <p>Participated in the IBM Z Datathon and worked on a civic AI prototype.</p>
+          </div>
+          <div class="card event-card">
+            <h3>Prompt Engineering Event</h3>
+            <p>Participated in a Prompt Engineering event organized by Google Student Ambassador.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Let’s connect — Vaishnavi Shukla</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
